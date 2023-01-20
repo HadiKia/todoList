@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList</title>
+    <link rel="stylesheet" href="Icons/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="headerTitle">
+            <h1>Todo List App</h1>
+            <p>Organize Your Work & Life With Todoist</p>
+        </div>
+        <i class="fa-duotone fa-check-double"></i>
+    </header>
+    <main>
+        <form>
+            <div class="inputContainer">
+                <i class="fa-duotone fa-feather-pointed"></i>
+                <input type="text" placeholder="What's Up?">
+                <i class="fa-duotone fa-circle-plus addItemButton"></i>
+            </div>
+            <div class="categoryContainer">
+                <i class="fa-duotone fa-briefcase work"></i>
+                <i class="fa-duotone fa-dumbbell gym"></i>
+                <i class="fa-duotone fa-house-user home"></i>
+            </div>
+        </form>
+        <p class="errorMessage"><i class="fa-duotone fa-triangle-exclamation"></i>Please enter a text</p>
+        <div class="todoContainer">
+            <ul>
+            </ul>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
